@@ -1,0 +1,71 @@
+.colorSelectionContainer {
+    display: flex;
+}
+
+.colorSelectionProductImage{
+    width: 80px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.selectedProductImage {
+    border: 2px solid teal;
+    border-radius: 4px;
+}
+
+.infoContainer {
+    position: relative;
+    top: 30px;
+    width: 50%;
+}
+
+.productHeading {
+    margin-bottom: 15px;
+}
+
+.productDescription {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.8);
+    word-wrap: break-word;
+}
+
+.colorSelectionHeading {
+    margin-bottom: 10px;
+}
+
+.featureSelectionHeading {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.featureContainer {
+    margin-bottom: 20px;
+}
+
+.featureBtn{
+    padding: 8px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buyBtn {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    background-color: orange;
+    border: transparent;
+    border-radius: 4px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.buyBtn:hover {
+    background-color: whitesmoke;
+    border: solid black 1px;
+}
+
+.selectedFeature {
+    background-color: rgb(151, 146, 146);
+    border: solid black 1px;
+    border-radius: 4px;
+}
